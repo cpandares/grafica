@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "firestore-grafica-2e08a": {
+      "hosting": {
+        "proyectoAngular": [
+          "firestore-grafica-2e08a"
+        ]
+      }
+    }
+  }
+}

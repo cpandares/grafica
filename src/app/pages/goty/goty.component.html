@@ -1,0 +1,21 @@
+<h2>Vitar por tu juego favorito</h2>
+<hr>
+
+<div class="row">
+    <div class="col">
+
+        <div class="card-columns" >
+            <div class="card bg-dark" *ngFor="let juego of juegos"> 
+              <img [src]="juego.url" class="card-img-top" [alt]="juego.name" class="img-fluid">
+              <div class="card-body">
+                <h5 class="card-title">{{ juego.name }}</h5>
+                <p class="card-text">Click para votar por tu juego Favorito</p>
+                <button class="btn btn-block btn-outline-primary" (click)="votarJuego(juego)">
+                    votar
+                </button>
+              </div>
+            </div>
+        <div>
+
+    </div>
+</div>
